@@ -1,0 +1,82 @@
+*{
+    flex-wrap: wrap;
+}
+.container-fluid{
+    display: flex;
+    justify-content: center !important;
+}
+.frst{
+    background-color: rgb(170, 216, 201);
+    margin: 25px;
+    border: 15px groove rgb(211, 129, 246);
+    
+}
+.real:hover{
+    transform: rotate3d(0, 0, -0.1, 1turn);
+    transition: 3s;
+}
+
+.bhdng{
+    color: rgb(43, 156, 75);
+}
+.hng{
+    margin: 15px;
+}
+.bhng{
+    color: rgb(43, 156, 75);
+    margin: 5px;
+}
+.crsl{
+    margin: 10px;
+    height: 650px;
+    width: 100px;
+}
+.bd{
+    background-color: rgb(135, 132, 132);
+}
+.bi{
+    margin: 160px;
+    font-size: xx-large;
+    
+}
+.bi:hover{
+color: rgb(46, 33, 77);
+}
+
+.init{
+    color: rgb(15, 147, 77);
+}
+#mail{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.last{
+    color: rgb(46, 33, 77);
+    line-height: 60px;
+    text-align: center;
+
+}
+.ttl{
+    text-align: center;
+}
+.inp{
+    color: blueviolet;
+}
+.one{
+    border: 10px double rgb(71, 63, 126);
+    border-radius: 8px;
+}
+.page{
+    padding: 50px;
+    max-width: 1000px;
+    max-height: 400px;
+
+}
+.navbar{
+font-size: large;
+font-family: cursive;
+font-weight: bold;
+line-height: 20px;
+text-transform: uppercase;
+}
